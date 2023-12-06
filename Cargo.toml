@@ -2,9 +2,13 @@
 name = "bevy_quit"
 version = "0.1.0"
 edition = "2021"
-authors = ["jotare"]
 description = "Simple plugin to easily add keybinds to exit a bevy game"
+authors = ["Joan Antoni <jotare>"]
 readme = "README.md"
+license-file = "LICENSE"
+repository = "https://github.com/jotare/bevy_quit"
+keywords = ["game-dev", "game-engine", "bevy-plugin"]
+categories = ["game-engines"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
