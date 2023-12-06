@@ -1,11 +1,3 @@
-# bevy_quit
-
-`bevy_quit` is a simple bevy plugin to easily add keybindings to exit a bevy
-game.
-
-## Example usage
-
-``` rust
 use bevy::prelude::*;
 
 use bevy_quit::QuitPlugin;
@@ -26,16 +18,3 @@ fn main() {
         )
         .run();
 }
-```
-
-## Contributing
-
-Contributions are more than welcome. However, to make code more standard,
-[`pre-commit`](https://pre-commit.com/) is used. Please, install it and run it
-before submitting any code to this repo. Thanks!
-
-To install the `pre-commit` hooks, execute:
-
-``` shell
-pre-commit install
-```
