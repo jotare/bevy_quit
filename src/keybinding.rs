@@ -1,6 +1,6 @@
 use bevy::input::keyboard::KeyCode;
 
-/// Representation of a key binding (from one to n simultaneous keys pressed at
+/// Representation of a key binding (from 1 to N simultaneous keys pressed at
 /// the same time)
 #[derive(Clone)]
 pub enum KeyBinding {

@@ -3,6 +3,7 @@ use bevy::prelude::*;
 
 use crate::KeyBinding;
 
+/// Support multiple key bindings to exit a bevy game
 pub struct QuitPlugin {
     bindings: QuitKeyBindings,
 }
@@ -17,6 +18,7 @@ impl QuitPlugin {
         }
     }
 
+    /// Add a key binding to quit a bevy game
     pub fn add_key_binding<K: Into<KeyBinding>>(mut self, keybinding: K) -> Self {
         self.bindings.0.push(keybinding.into());
         self
