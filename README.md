@@ -1,6 +1,6 @@
 # bevy_quit
 
-`bevy_quit` is a simple bevy plugin to easily add keybindings to exit a bevy
+`bevy_quit` is a simple bevy plugin to easily add keybindings to exit bevy games
 game.
 
 ## Example usage

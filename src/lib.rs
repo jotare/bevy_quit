@@ -1,6 +1,6 @@
 #![allow(clippy::needless_doctest_main)]
-//! `bevy_quit` is a simple bevy plugin to easily add keybindings to exit a
-//! [bevy](https://docs.rs/bevy/latest/bevy/) game.
+//! `bevy_quit` is a simple bevy plugin to easily add keybindings to exit
+//! [bevy](https://docs.rs/bevy/latest/bevy/) games.
 //!
 //! ## Example
 //!
