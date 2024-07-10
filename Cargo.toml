@@ -8,6 +8,7 @@ readme = "README.md"
 keywords = [
     "game-dev",
     "game-engine",
+    "bevy",
     "bevy-plugin"
 ]
 categories = ["game-engines"]
