@@ -50,7 +50,7 @@ fn quit_plugin(
             KeyBinding::Multi(keys) => keys.iter().all(|key| input.pressed(*key)),
         };
         if should_exit {
-            app_exit_events.send(AppExit);
+            app_exit_events.send(AppExit::Success);
             return;
         }
     }
