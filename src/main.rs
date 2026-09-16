@@ -13,7 +13,7 @@ fn main() {
                     KeyCode::ControlLeft,
                     KeyCode::ShiftLeft,
                     KeyCode::AltLeft,
-                    KeyCode::C,
+                    KeyCode::KeyC,
                 ]),
         )
         .run();
