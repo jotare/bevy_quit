@@ -42,7 +42,7 @@ impl Plugin for QuitPlugin {
 fn quit_plugin(
     input: Res<ButtonInput<KeyCode>>,
     quit_bindings: Res<QuitKeyBindings>,
-    mut app_exit_events: EventWriter<AppExit>,
+    mut app_exit_events: MessageWriter<AppExit>,
 ) {
     for binding in quit_bindings.0.iter() {
         let should_exit = match binding {
