@@ -18,4 +18,4 @@ repository = "https://github.com/jotare/bevy_quit"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.14"
+bevy = "0.15"
