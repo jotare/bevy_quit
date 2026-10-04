@@ -28,7 +28,7 @@ impl QuitPlugin {
 impl Default for QuitPlugin {
     /// Set C-q (ControlLeft, Q) as default quit key binding
     fn default() -> Self {
-        Self::new().add_key_binding((KeyCode::ControlLeft, KeyCode::Q))
+        Self::new().add_key_binding((KeyCode::ControlLeft, KeyCode::KeyQ))
     }
 }
 
@@ -40,7 +40,7 @@ impl Plugin for QuitPlugin {
 }
 
 fn quit_plugin(
-    input: Res<Input<KeyCode>>,
+    input: Res<ButtonInput<KeyCode>>,
     quit_bindings: Res<QuitKeyBindings>,
     mut app_exit_events: EventWriter<AppExit>,
 ) {
